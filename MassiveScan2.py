@@ -77,9 +77,9 @@ networks.close()
 # Users port
 port = input("Enter port: ")
 # Users timeout
-timeout = input("Enter timeout (default: 0.1): ")
+timeout = input("Enter timeout (default: 0.01): ")
 if timeout == '':
-	timeout = str(0.1)
+	timeout = str(0.01)
 
 
 # Result info
